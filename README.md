@@ -6,6 +6,7 @@ https://qiita.com/msrks/items/0550603efc59f6e8ba09
 https://qiita.com/haminiku/items/0661568d0e311c8e8381  
 http://kou-yeung.hatenablog.com/entry/2017/02/18/040901  
 
+Unity 5.6.0f3で作成
 
 ### シーン：
 #### Sample
