@@ -48,9 +48,7 @@ public class SocketServer : MonoBehaviour
 				client.Close ();
 			}
 		}
-
 		listener.Stop ();
-
 	}
 
 	protected virtual void OnMessage (string msg)
