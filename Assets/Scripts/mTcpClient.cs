@@ -34,7 +34,7 @@ public class mTcpClient : MonoBehaviour
 	void Update ()
 	{
 		if (Input.GetKeyDown (KeyCode.D)) {
-			string msg = "from Client\n";
+			string msg = "from Client\n"; // 現在の受け取り方だと，Unityから送る場合改行が必要
 			SendMessage (msg);
 		}
 	}
