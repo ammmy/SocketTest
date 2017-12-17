@@ -17,6 +17,13 @@ TCP/IP通信サンプルプログラム．
 サーバとクライアントをどちらも同じシーン上で実行．  
 メッセージのやり取りをしているだけ，これをもとにクライアントで自動運転処理を行う必要がある．  
   
+Dキーを押すとmTcpClient.csがサーバにメッセージ"from Client"を送信する．  
+それを受信したmSocketServer.csが"from Client"とコンソールに表示する．  
+  
+Aキーを押すとmSocketServer.csがクライアントにメッセージ"from Unity server"を送信する．  
+それを受信したmTcpClient.csが"from Unity server"とコンソールに表示する．  
+  
+サーバへの接続はmTcpClient.csがプログラム開始1秒後に自動で行う．  
 サーバ，クライアントそれぞれ別のプログラムと通信するテストを行いたい場合は付属のPythonコードで可能．
 
 ### 他のプログラムと通信するには
